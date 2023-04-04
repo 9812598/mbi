@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "spb_optimas",
+  "info": {
+    "singularName": "spb-optima",
+    "pluralName": "spb-optimas",
+    "displayName": "spb_optima",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "price": {
+      "type": "integer"
+    },
+    "mass": {
+      "type": "decimal"
+    },
+    "city_id": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::city.city"
+    }
+  }
+}
