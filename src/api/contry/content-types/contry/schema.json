@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contries",
+  "info": {
+    "singularName": "contry",
+    "pluralName": "contries",
+    "displayName": "country",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "time": {
+      "type": "string"
+    }
+  }
+}

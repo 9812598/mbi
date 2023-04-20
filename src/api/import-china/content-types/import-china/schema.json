@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "import_chinas",
+  "info": {
+    "singularName": "import-china",
+    "pluralName": "import-chinas",
+    "displayName": "import_china",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "price": {
+      "type": "integer"
+    },
+    "mass": {
+      "type": "decimal"
+    }
+  }
+}

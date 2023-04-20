@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "spb_expresses",
+  "info": {
+    "singularName": "spb-express",
+    "pluralName": "spb-expresses",
+    "displayName": "spb_express",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "price": {
+      "type": "integer"
+    },
+    "mass": {
+      "type": "decimal"
+    },
+    "city_id": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::city.city"
+    }
+  }
+}
