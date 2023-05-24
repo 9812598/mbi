@@ -12,11 +12,14 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "price": {
+    "price_optima": {
       "type": "integer"
     },
     "mass": {
       "type": "decimal"
+    },
+    "price_express": {
+      "type": "integer"
     }
   }
 }

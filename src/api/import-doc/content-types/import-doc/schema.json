@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "import_docs",
+  "info": {
+    "singularName": "import-doc",
+    "pluralName": "import-docs",
+    "displayName": "import_doc"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "country_name": {
+      "type": "string"
+    },
+    "telivery_time_day": {
+      "type": "string"
+    },
+    "price_delivery": {
+      "type": "integer"
+    }
+  }
+}
